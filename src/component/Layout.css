@@ -1,0 +1,70 @@
+.NavLogo{
+    width: 200px;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.sub-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#navlink{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 75px;
+}
+.imgContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 47px;
+}
+.footer-father hr{
+    width: 1200px;
+    margin-left: 360px;
+}
+.footer-one h2{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.royxat-footer-1 li{
+    color: black;
+    font-weight: bolder;
+    margin: 46px 0px;
+}
+.gray-color{
+    color: rgba(159, 159, 159, 1);
+    font-size: 16px;
+}
+.gray-color-1{
+    color: rgba(159, 159, 159, 1);
+    font-size: 16px;
+    margin-bottom: 53px;
+}
+.royxat-input input{
+    border-bottom: 1px solid rgba(0, 0, 0, 1);
+    width: 200px;
+    margin-right: 20px;
+}
+.royxat-input button{
+    border-bottom: 1px solid rgba(0, 0, 0, 1);
+}
+.footer_end hr{
+    width: 1000px;
+}
+.footer_end p{
+    font-size: 16px;
+    color: black;
+    font-weight: 400;
+    margin: 15px 0px;
+}
+.footer_flex{
+    display: flex;
+    padding-top: 20px;
+    justify-content: space-between;
+}
