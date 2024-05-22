@@ -1,9 +1,6 @@
 import React from 'react'
 
 export default class Title extends React.Component {
-    constructor(props){
-        super(props)
-      }
     render() {
         const { title, subTitle } = this.props
         return (
