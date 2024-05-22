@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import bg_home from '../assets/bg-main-home.jpg'
 // import dining from '../assets/driving.png';
 // import living from '../assets/living.png';
@@ -18,20 +18,8 @@ import inner_9 from '../assets/inner_9.png'
 import Title from './Title'
 import './Home.css'
 import Product from './Product';
-import axios from 'axios';
-
-const BackUrl = 'https://test-ecommerce-gamma.vercel.app/categories'
 
 const Home = () => {
-  const [form, setForm] = useState({ cards: [] })
-
-  useEffect(() => {
-    const getCategories = async () => {
-      const response = await axios.get(BackUrl);
-      setForm(response.data)
-    };
-    getCategories()
-  }, [])
 
   return (
     <div>
