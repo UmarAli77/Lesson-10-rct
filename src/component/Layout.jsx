@@ -23,7 +23,7 @@ function Layout() {
         if(!token) {
             navigt('/login')
         }
-    }, [])
+    }, [navigt])
     return (
         <div>
           <header className='container'>
